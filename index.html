@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+  <title>Flight Finder</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="form-box">
+    <form action="" id="captureForm">
+      <div class="userInput">
+        <input type="text" name="From" id="From" value="IAH">
+        <label for="From">From*</label>
+        <input type="text" name="To" id="To" value="LAX">
+        <label for="To">To*</label>
+        <input type="date" name="DepartDate" id="DepartDate" value="2023-10-11">
+        <label for="DepartDate">Depart Date</label>
+        <input type="date" name="ReturnDate" id="ReturnDate" value="2023-10-13">
+        <label for="ReturnDate">Return Date</label>
+      </div>
+      <input class="submit"type="submit" name="submit" onclick=captureForm(event)>
+    </form>
+  </div>
+  <div id='results' class="results"></div>
+
+
+<script src="javascript.js"></script>
+</body>
+</html>

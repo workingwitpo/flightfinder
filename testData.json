@@ -1,0 +1,2471 @@
+{
+    "context": {
+      "status": "incomplete",
+      "sessionId": "65e29603-9e9a-4415-a302-563128a0f838",
+      "totalResults": 10
+    },
+    "itineraries": {
+      "buckets": [
+        {
+          "id": "Best",
+          "name": "Best",
+          "items": [
+            {
+              "id": "12389-2310010601--31722-0-13416-2310010734|13416-2310121858--31722-0-12389-2310130015",
+              "price": {
+                "raw": 197.8,
+                "formatted": "$198"
+              },
+              "legs": [
+                {
+                  "id": "12389-2310010601--31722-0-13416-2310010734",
+                  "origin": {
+                    "id": "IAH",
+                    "name": "Houston George Bush Intercntl.",
+                    "displayCode": "IAH",
+                    "city": "Houston",
+                    "isHighlighted": false
+                  },
+                  "destination": {
+                    "id": "LAX",
+                    "name": "Los Angeles International",
+                    "displayCode": "LAX",
+                    "city": "Los Angeles",
+                    "isHighlighted": false
+                  },
+                  "durationInMinutes": 213,
+                  "stopCount": 0,
+                  "isSmallestStops": false,
+                  "departure": "2023-10-01T06:01:00",
+                  "arrival": "2023-10-01T07:34:00",
+                  "timeDeltaInDays": 0,
+                  "carriers": {
+                    "marketing": [
+                      {
+                        "id": -31722,
+                        "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/UA.png",
+                        "name": "United"
+                      }
+                    ],
+                    "operationType": "fully_operated"
+                  },
+                  "segments": [
+                    {
+                      "id": "12389-13416-2310010601-2310010734--31722",
+                      "origin": {
+                        "flightPlaceId": "IAH",
+                        "displayCode": "IAH",
+                        "parent": {
+                          "flightPlaceId": "HOUA",
+                          "displayCode": "HOU",
+                          "name": "Houston",
+                          "type": "City"
+                        },
+                        "name": "Houston George Bush Intercntl.",
+                        "type": "Airport"
+                      },
+                      "destination": {
+                        "flightPlaceId": "LAX",
+                        "displayCode": "LAX",
+                        "parent": {
+                          "flightPlaceId": "LAXA",
+                          "displayCode": "LAX",
+                          "name": "Los Angeles",
+                          "type": "City"
+                        },
+                        "name": "Los Angeles International",
+                        "type": "Airport"
+                      },
+                      "departure": "2023-10-01T06:01:00",
+                      "arrival": "2023-10-01T07:34:00",
+                      "durationInMinutes": 213,
+                      "flightNumber": "2273",
+                      "marketingCarrier": {
+                        "id": -31722,
+                        "name": "United",
+                        "alternateId": "UA",
+                        "allianceId": 0
+                      },
+                      "operatingCarrier": {
+                        "id": -31722,
+                        "name": "United",
+                        "alternateId": "UA",
+                        "allianceId": 0
+                      }
+                    }
+                  ]
+                },
+                {
+                  "id": "13416-2310121858--31722-0-12389-2310130015",
+                  "origin": {
+                    "id": "LAX",
+                    "name": "Los Angeles International",
+                    "displayCode": "LAX",
+                    "city": "Los Angeles",
+                    "isHighlighted": false
+                  },
+                  "destination": {
+                    "id": "IAH",
+                    "name": "Houston George Bush Intercntl.",
+                    "displayCode": "IAH",
+                    "city": "Houston",
+                    "isHighlighted": false
+                  },
+                  "durationInMinutes": 197,
+                  "stopCount": 0,
+                  "isSmallestStops": false,
+                  "departure": "2023-10-12T18:58:00",
+                  "arrival": "2023-10-13T00:15:00",
+                  "timeDeltaInDays": 1,
+                  "carriers": {
+                    "marketing": [
+                      {
+                        "id": -31722,
+                        "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/UA.png",
+                        "name": "United"
+                      }
+                    ],
+                    "operationType": "fully_operated"
+                  },
+                  "segments": [
+                    {
+                      "id": "13416-12389-2310121858-2310130015--31722",
+                      "origin": {
+                        "flightPlaceId": "LAX",
+                        "displayCode": "LAX",
+                        "parent": {
+                          "flightPlaceId": "LAXA",
+                          "displayCode": "LAX",
+                          "name": "Los Angeles",
+                          "type": "City"
+                        },
+                        "name": "Los Angeles International",
+                        "type": "Airport"
+                      },
+                      "destination": {
+                        "flightPlaceId": "IAH",
+                        "displayCode": "IAH",
+                        "parent": {
+                          "flightPlaceId": "HOUA",
+                          "displayCode": "HOU",
+                          "name": "Houston",
+                          "type": "City"
+                        },
+                        "name": "Houston George Bush Intercntl.",
+                        "type": "Airport"
+                      },
+                      "departure": "2023-10-12T18:58:00",
+                      "arrival": "2023-10-13T00:15:00",
+                      "durationInMinutes": 197,
+                      "flightNumber": "1680",
+                      "marketingCarrier": {
+                        "id": -31722,
+                        "name": "United",
+                        "alternateId": "UA",
+                        "allianceId": 0
+                      },
+                      "operatingCarrier": {
+                        "id": -31722,
+                        "name": "United",
+                        "alternateId": "UA",
+                        "allianceId": 0
+                      }
+                    }
+                  ]
+                }
+              ],
+              "isSelfTransfer": false,
+              "isProtectedSelfTransfer": false,
+              "farePolicy": {
+                "isChangeAllowed": false,
+                "isPartiallyChangeable": false,
+                "isCancellationAllowed": false,
+                "isPartiallyRefundable": false
+              },
+              "fareAttributes": {},
+              "tags": [
+                "cheapest",
+                "shortest"
+              ],
+              "isMashUp": false,
+              "hasFlexibleOptions": false,
+              "score": 0.995122,
+              "pricingOptions": [
+                {
+                  "agentIds": [
+                    "uair"
+                  ],
+                  "price": {
+                    "amount": 197.8
+                  },
+                  "items": [
+                    {
+                      "price": {
+                        "amount": 197.8
+                      },
+                      "bookingProposition": "PBOOK",
+                      "agentId": "uair"
+                    }
+                  ]
+                }
+              ],
+              "deeplink": "https://www.skyscanner.net/transport/flights/iah/lax/231001/231012/config/12389-2310010601--31722-0-13416-2310010734|13416-2310121858--31722-0-12389-2310130015?adults=1&adultsv2=1&cabinclass=economy&children=0&childrenv2=&destinationentityid=27536211&originentityid=27538417&inboundaltsenabled=false&infants=0&outboundaltsenabled=false&preferdirects=false&ref=home&rtn=1"
+            },
+            {
+              "id": "12389-2310010601--31722-0-13416-2310010734|13416-2310121724--31722-0-12389-2310122241",
+              "price": {
+                "raw": 197.8,
+                "formatted": "$198"
+              },
+              "legs": [
+                {
+                  "id": "12389-2310010601--31722-0-13416-2310010734",
+                  "origin": {
+                    "id": "IAH",
+                    "name": "Houston George Bush Intercntl.",
+                    "displayCode": "IAH",
+                    "city": "Houston",
+                    "isHighlighted": false
+                  },
+                  "destination": {
+                    "id": "LAX",
+                    "name": "Los Angeles International",
+                    "displayCode": "LAX",
+                    "city": "Los Angeles",
+                    "isHighlighted": false
+                  },
+                  "durationInMinutes": 213,
+                  "stopCount": 0,
+                  "isSmallestStops": false,
+                  "departure": "2023-10-01T06:01:00",
+                  "arrival": "2023-10-01T07:34:00",
+                  "timeDeltaInDays": 0,
+                  "carriers": {
+                    "marketing": [
+                      {
+                        "id": -31722,
+                        "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/UA.png",
+                        "name": "United"
+                      }
+                    ],
+                    "operationType": "fully_operated"
+                  },
+                  "segments": [
+                    {
+                      "id": "12389-13416-2310010601-2310010734--31722",
+                      "origin": {
+                        "flightPlaceId": "IAH",
+                        "displayCode": "IAH",
+                        "parent": {
+                          "flightPlaceId": "HOUA",
+                          "displayCode": "HOU",
+                          "name": "Houston",
+                          "type": "City"
+                        },
+                        "name": "Houston George Bush Intercntl.",
+                        "type": "Airport"
+                      },
+                      "destination": {
+                        "flightPlaceId": "LAX",
+                        "displayCode": "LAX",
+                        "parent": {
+                          "flightPlaceId": "LAXA",
+                          "displayCode": "LAX",
+                          "name": "Los Angeles",
+                          "type": "City"
+                        },
+                        "name": "Los Angeles International",
+                        "type": "Airport"
+                      },
+                      "departure": "2023-10-01T06:01:00",
+                      "arrival": "2023-10-01T07:34:00",
+                      "durationInMinutes": 213,
+                      "flightNumber": "2273",
+                      "marketingCarrier": {
+                        "id": -31722,
+                        "name": "United",
+                        "alternateId": "UA",
+                        "allianceId": 0
+                      },
+                      "operatingCarrier": {
+                        "id": -31722,
+                        "name": "United",
+                        "alternateId": "UA",
+                        "allianceId": 0
+                      }
+                    }
+                  ]
+                },
+                {
+                  "id": "13416-2310121724--31722-0-12389-2310122241",
+                  "origin": {
+                    "id": "LAX",
+                    "name": "Los Angeles International",
+                    "displayCode": "LAX",
+                    "city": "Los Angeles",
+                    "isHighlighted": false
+                  },
+                  "destination": {
+                    "id": "IAH",
+                    "name": "Houston George Bush Intercntl.",
+                    "displayCode": "IAH",
+                    "city": "Houston",
+                    "isHighlighted": false
+                  },
+                  "durationInMinutes": 197,
+                  "stopCount": 0,
+                  "isSmallestStops": false,
+                  "departure": "2023-10-12T17:24:00",
+                  "arrival": "2023-10-12T22:41:00",
+                  "timeDeltaInDays": 0,
+                  "carriers": {
+                    "marketing": [
+                      {
+                        "id": -31722,
+                        "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/UA.png",
+                        "name": "United"
+                      }
+                    ],
+                    "operationType": "fully_operated"
+                  },
+                  "segments": [
+                    {
+                      "id": "13416-12389-2310121724-2310122241--31722",
+                      "origin": {
+                        "flightPlaceId": "LAX",
+                        "displayCode": "LAX",
+                        "parent": {
+                          "flightPlaceId": "LAXA",
+                          "displayCode": "LAX",
+                          "name": "Los Angeles",
+                          "type": "City"
+                        },
+                        "name": "Los Angeles International",
+                        "type": "Airport"
+                      },
+                      "destination": {
+                        "flightPlaceId": "IAH",
+                        "displayCode": "IAH",
+                        "parent": {
+                          "flightPlaceId": "HOUA",
+                          "displayCode": "HOU",
+                          "name": "Houston",
+                          "type": "City"
+                        },
+                        "name": "Houston George Bush Intercntl.",
+                        "type": "Airport"
+                      },
+                      "departure": "2023-10-12T17:24:00",
+                      "arrival": "2023-10-12T22:41:00",
+                      "durationInMinutes": 197,
+                      "flightNumber": "2012",
+                      "marketingCarrier": {
+                        "id": -31722,
+                        "name": "United",
+                        "alternateId": "UA",
+                        "allianceId": 0
+                      },
+                      "operatingCarrier": {
+                        "id": -31722,
+                        "name": "United",
+                        "alternateId": "UA",
+                        "allianceId": 0
+                      }
+                    }
+                  ]
+                }
+              ],
+              "isSelfTransfer": false,
+              "isProtectedSelfTransfer": false,
+              "farePolicy": {
+                "isChangeAllowed": false,
+                "isPartiallyChangeable": false,
+                "isCancellationAllowed": false,
+                "isPartiallyRefundable": false
+              },
+              "eco": {
+                "ecoContenderDelta": 8.577072
+              },
+              "fareAttributes": {},
+              "tags": [
+                "cheapest",
+                "shortest"
+              ],
+              "isMashUp": false,
+              "hasFlexibleOptions": false,
+              "score": 0.995122,
+              "pricingOptions": [
+                {
+                  "agentIds": [
+                    "uair"
+                  ],
+                  "price": {
+                    "amount": 197.8
+                  },
+                  "items": [
+                    {
+                      "price": {
+                        "amount": 197.8
+                      },
+                      "bookingProposition": "PBOOK",
+                      "agentId": "uair"
+                    }
+                  ]
+                }
+              ],
+              "deeplink": "https://www.skyscanner.net/transport/flights/iah/lax/231001/231012/config/12389-2310010601--31722-0-13416-2310010734|13416-2310121724--31722-0-12389-2310122241?adults=1&adultsv2=1&cabinclass=economy&children=0&childrenv2=&destinationentityid=27536211&originentityid=27538417&inboundaltsenabled=false&infants=0&outboundaltsenabled=false&preferdirects=false&ref=home&rtn=1"
+            },
+            {
+              "id": "12389-2310010727--31722-0-13416-2310010903|13416-2310121858--31722-0-12389-2310130015",
+              "price": {
+                "raw": 197.8,
+                "formatted": "$198"
+              },
+              "legs": [
+                {
+                  "id": "12389-2310010727--31722-0-13416-2310010903",
+                  "origin": {
+                    "id": "IAH",
+                    "name": "Houston George Bush Intercntl.",
+                    "displayCode": "IAH",
+                    "city": "Houston",
+                    "isHighlighted": false
+                  },
+                  "destination": {
+                    "id": "LAX",
+                    "name": "Los Angeles International",
+                    "displayCode": "LAX",
+                    "city": "Los Angeles",
+                    "isHighlighted": false
+                  },
+                  "durationInMinutes": 216,
+                  "stopCount": 0,
+                  "isSmallestStops": false,
+                  "departure": "2023-10-01T07:27:00",
+                  "arrival": "2023-10-01T09:03:00",
+                  "timeDeltaInDays": 0,
+                  "carriers": {
+                    "marketing": [
+                      {
+                        "id": -31722,
+                        "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/UA.png",
+                        "name": "United"
+                      }
+                    ],
+                    "operationType": "fully_operated"
+                  },
+                  "segments": [
+                    {
+                      "id": "12389-13416-2310010727-2310010903--31722",
+                      "origin": {
+                        "flightPlaceId": "IAH",
+                        "displayCode": "IAH",
+                        "parent": {
+                          "flightPlaceId": "HOUA",
+                          "displayCode": "HOU",
+                          "name": "Houston",
+                          "type": "City"
+                        },
+                        "name": "Houston George Bush Intercntl.",
+                        "type": "Airport"
+                      },
+                      "destination": {
+                        "flightPlaceId": "LAX",
+                        "displayCode": "LAX",
+                        "parent": {
+                          "flightPlaceId": "LAXA",
+                          "displayCode": "LAX",
+                          "name": "Los Angeles",
+                          "type": "City"
+                        },
+                        "name": "Los Angeles International",
+                        "type": "Airport"
+                      },
+                      "departure": "2023-10-01T07:27:00",
+                      "arrival": "2023-10-01T09:03:00",
+                      "durationInMinutes": 216,
+                      "flightNumber": "1068",
+                      "marketingCarrier": {
+                        "id": -31722,
+                        "name": "United",
+                        "alternateId": "UA",
+                        "allianceId": 0
+                      },
+                      "operatingCarrier": {
+                        "id": -31722,
+                        "name": "United",
+                        "alternateId": "UA",
+                        "allianceId": 0
+                      }
+                    }
+                  ]
+                },
+                {
+                  "id": "13416-2310121858--31722-0-12389-2310130015",
+                  "origin": {
+                    "id": "LAX",
+                    "name": "Los Angeles International",
+                    "displayCode": "LAX",
+                    "city": "Los Angeles",
+                    "isHighlighted": false
+                  },
+                  "destination": {
+                    "id": "IAH",
+                    "name": "Houston George Bush Intercntl.",
+                    "displayCode": "IAH",
+                    "city": "Houston",
+                    "isHighlighted": false
+                  },
+                  "durationInMinutes": 197,
+                  "stopCount": 0,
+                  "isSmallestStops": false,
+                  "departure": "2023-10-12T18:58:00",
+                  "arrival": "2023-10-13T00:15:00",
+                  "timeDeltaInDays": 1,
+                  "carriers": {
+                    "marketing": [
+                      {
+                        "id": -31722,
+                        "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/UA.png",
+                        "name": "United"
+                      }
+                    ],
+                    "operationType": "fully_operated"
+                  },
+                  "segments": [
+                    {
+                      "id": "13416-12389-2310121858-2310130015--31722",
+                      "origin": {
+                        "flightPlaceId": "LAX",
+                        "displayCode": "LAX",
+                        "parent": {
+                          "flightPlaceId": "LAXA",
+                          "displayCode": "LAX",
+                          "name": "Los Angeles",
+                          "type": "City"
+                        },
+                        "name": "Los Angeles International",
+                        "type": "Airport"
+                      },
+                      "destination": {
+                        "flightPlaceId": "IAH",
+                        "displayCode": "IAH",
+                        "parent": {
+                          "flightPlaceId": "HOUA",
+                          "displayCode": "HOU",
+                          "name": "Houston",
+                          "type": "City"
+                        },
+                        "name": "Houston George Bush Intercntl.",
+                        "type": "Airport"
+                      },
+                      "departure": "2023-10-12T18:58:00",
+                      "arrival": "2023-10-13T00:15:00",
+                      "durationInMinutes": 197,
+                      "flightNumber": "1680",
+                      "marketingCarrier": {
+                        "id": -31722,
+                        "name": "United",
+                        "alternateId": "UA",
+                        "allianceId": 0
+                      },
+                      "operatingCarrier": {
+                        "id": -31722,
+                        "name": "United",
+                        "alternateId": "UA",
+                        "allianceId": 0
+                      }
+                    }
+                  ]
+                }
+              ],
+              "isSelfTransfer": false,
+              "isProtectedSelfTransfer": false,
+              "farePolicy": {
+                "isChangeAllowed": false,
+                "isPartiallyChangeable": false,
+                "isCancellationAllowed": false,
+                "isPartiallyRefundable": false
+              },
+              "eco": {
+                "ecoContenderDelta": 7.7794433
+              },
+              "fareAttributes": {},
+              "tags": [
+                "cheapest",
+                "second_shortest"
+              ],
+              "isMashUp": false,
+              "hasFlexibleOptions": false,
+              "score": 0.987893,
+              "pricingOptions": [
+                {
+                  "agentIds": [
+                    "uair"
+                  ],
+                  "price": {
+                    "amount": 197.8
+                  },
+                  "items": [
+                    {
+                      "price": {
+                        "amount": 197.8
+                      },
+                      "bookingProposition": "PBOOK",
+                      "agentId": "uair"
+                    }
+                  ]
+                }
+              ],
+              "deeplink": "https://www.skyscanner.net/transport/flights/iah/lax/231001/231012/config/12389-2310010727--31722-0-13416-2310010903|13416-2310121858--31722-0-12389-2310130015?adults=1&adultsv2=1&cabinclass=economy&children=0&childrenv2=&destinationentityid=27536211&originentityid=27538417&inboundaltsenabled=false&infants=0&outboundaltsenabled=false&preferdirects=false&ref=home&rtn=1"
+            }
+          ]
+        },
+        {
+          "id": "Cheapest",
+          "name": "Cheapest",
+          "items": [
+            {
+              "id": "12389-2310010601--31722-0-13416-2310010734|13416-2310121858--31722-0-12389-2310130015",
+              "price": {
+                "raw": 197.8,
+                "formatted": "$198"
+              },
+              "legs": [
+                {
+                  "id": "12389-2310010601--31722-0-13416-2310010734",
+                  "origin": {
+                    "id": "IAH",
+                    "name": "Houston George Bush Intercntl.",
+                    "displayCode": "IAH",
+                    "city": "Houston",
+                    "isHighlighted": false
+                  },
+                  "destination": {
+                    "id": "LAX",
+                    "name": "Los Angeles International",
+                    "displayCode": "LAX",
+                    "city": "Los Angeles",
+                    "isHighlighted": false
+                  },
+                  "durationInMinutes": 213,
+                  "stopCount": 0,
+                  "isSmallestStops": false,
+                  "departure": "2023-10-01T06:01:00",
+                  "arrival": "2023-10-01T07:34:00",
+                  "timeDeltaInDays": 0,
+                  "carriers": {
+                    "marketing": [
+                      {
+                        "id": -31722,
+                        "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/UA.png",
+                        "name": "United"
+                      }
+                    ],
+                    "operationType": "fully_operated"
+                  },
+                  "segments": [
+                    {
+                      "id": "12389-13416-2310010601-2310010734--31722",
+                      "origin": {
+                        "flightPlaceId": "IAH",
+                        "displayCode": "IAH",
+                        "parent": {
+                          "flightPlaceId": "HOUA",
+                          "displayCode": "HOU",
+                          "name": "Houston",
+                          "type": "City"
+                        },
+                        "name": "Houston George Bush Intercntl.",
+                        "type": "Airport"
+                      },
+                      "destination": {
+                        "flightPlaceId": "LAX",
+                        "displayCode": "LAX",
+                        "parent": {
+                          "flightPlaceId": "LAXA",
+                          "displayCode": "LAX",
+                          "name": "Los Angeles",
+                          "type": "City"
+                        },
+                        "name": "Los Angeles International",
+                        "type": "Airport"
+                      },
+                      "departure": "2023-10-01T06:01:00",
+                      "arrival": "2023-10-01T07:34:00",
+                      "durationInMinutes": 213,
+                      "flightNumber": "2273",
+                      "marketingCarrier": {
+                        "id": -31722,
+                        "name": "United",
+                        "alternateId": "UA",
+                        "allianceId": 0
+                      },
+                      "operatingCarrier": {
+                        "id": -31722,
+                        "name": "United",
+                        "alternateId": "UA",
+                        "allianceId": 0
+                      }
+                    }
+                  ]
+                },
+                {
+                  "id": "13416-2310121858--31722-0-12389-2310130015",
+                  "origin": {
+                    "id": "LAX",
+                    "name": "Los Angeles International",
+                    "displayCode": "LAX",
+                    "city": "Los Angeles",
+                    "isHighlighted": false
+                  },
+                  "destination": {
+                    "id": "IAH",
+                    "name": "Houston George Bush Intercntl.",
+                    "displayCode": "IAH",
+                    "city": "Houston",
+                    "isHighlighted": false
+                  },
+                  "durationInMinutes": 197,
+                  "stopCount": 0,
+                  "isSmallestStops": false,
+                  "departure": "2023-10-12T18:58:00",
+                  "arrival": "2023-10-13T00:15:00",
+                  "timeDeltaInDays": 1,
+                  "carriers": {
+                    "marketing": [
+                      {
+                        "id": -31722,
+                        "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/UA.png",
+                        "name": "United"
+                      }
+                    ],
+                    "operationType": "fully_operated"
+                  },
+                  "segments": [
+                    {
+                      "id": "13416-12389-2310121858-2310130015--31722",
+                      "origin": {
+                        "flightPlaceId": "LAX",
+                        "displayCode": "LAX",
+                        "parent": {
+                          "flightPlaceId": "LAXA",
+                          "displayCode": "LAX",
+                          "name": "Los Angeles",
+                          "type": "City"
+                        },
+                        "name": "Los Angeles International",
+                        "type": "Airport"
+                      },
+                      "destination": {
+                        "flightPlaceId": "IAH",
+                        "displayCode": "IAH",
+                        "parent": {
+                          "flightPlaceId": "HOUA",
+                          "displayCode": "HOU",
+                          "name": "Houston",
+                          "type": "City"
+                        },
+                        "name": "Houston George Bush Intercntl.",
+                        "type": "Airport"
+                      },
+                      "departure": "2023-10-12T18:58:00",
+                      "arrival": "2023-10-13T00:15:00",
+                      "durationInMinutes": 197,
+                      "flightNumber": "1680",
+                      "marketingCarrier": {
+                        "id": -31722,
+                        "name": "United",
+                        "alternateId": "UA",
+                        "allianceId": 0
+                      },
+                      "operatingCarrier": {
+                        "id": -31722,
+                        "name": "United",
+                        "alternateId": "UA",
+                        "allianceId": 0
+                      }
+                    }
+                  ]
+                }
+              ],
+              "isSelfTransfer": false,
+              "isProtectedSelfTransfer": false,
+              "farePolicy": {
+                "isChangeAllowed": false,
+                "isPartiallyChangeable": false,
+                "isCancellationAllowed": false,
+                "isPartiallyRefundable": false
+              },
+              "fareAttributes": {},
+              "tags": [
+                "cheapest",
+                "shortest"
+              ],
+              "isMashUp": false,
+              "hasFlexibleOptions": false,
+              "score": 1,
+              "pricingOptions": [
+                {
+                  "agentIds": [
+                    "uair"
+                  ],
+                  "price": {
+                    "amount": 197.8
+                  },
+                  "items": [
+                    {
+                      "price": {
+                        "amount": 197.8
+                      },
+                      "bookingProposition": "PBOOK",
+                      "agentId": "uair"
+                    }
+                  ]
+                }
+              ],
+              "deeplink": "https://www.skyscanner.net/transport/flights/iah/lax/231001/231012/config/12389-2310010601--31722-0-13416-2310010734|13416-2310121858--31722-0-12389-2310130015?adults=1&adultsv2=1&cabinclass=economy&children=0&childrenv2=&destinationentityid=27536211&originentityid=27538417&inboundaltsenabled=false&infants=0&outboundaltsenabled=false&preferdirects=false&ref=home&rtn=1"
+            },
+            {
+              "id": "12389-2310010727--31722-0-13416-2310010903|13416-2310121858--31722-0-12389-2310130015",
+              "price": {
+                "raw": 197.8,
+                "formatted": "$198"
+              },
+              "legs": [
+                {
+                  "id": "12389-2310010727--31722-0-13416-2310010903",
+                  "origin": {
+                    "id": "IAH",
+                    "name": "Houston George Bush Intercntl.",
+                    "displayCode": "IAH",
+                    "city": "Houston",
+                    "isHighlighted": false
+                  },
+                  "destination": {
+                    "id": "LAX",
+                    "name": "Los Angeles International",
+                    "displayCode": "LAX",
+                    "city": "Los Angeles",
+                    "isHighlighted": false
+                  },
+                  "durationInMinutes": 216,
+                  "stopCount": 0,
+                  "isSmallestStops": false,
+                  "departure": "2023-10-01T07:27:00",
+                  "arrival": "2023-10-01T09:03:00",
+                  "timeDeltaInDays": 0,
+                  "carriers": {
+                    "marketing": [
+                      {
+                        "id": -31722,
+                        "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/UA.png",
+                        "name": "United"
+                      }
+                    ],
+                    "operationType": "fully_operated"
+                  },
+                  "segments": [
+                    {
+                      "id": "12389-13416-2310010727-2310010903--31722",
+                      "origin": {
+                        "flightPlaceId": "IAH",
+                        "displayCode": "IAH",
+                        "parent": {
+                          "flightPlaceId": "HOUA",
+                          "displayCode": "HOU",
+                          "name": "Houston",
+                          "type": "City"
+                        },
+                        "name": "Houston George Bush Intercntl.",
+                        "type": "Airport"
+                      },
+                      "destination": {
+                        "flightPlaceId": "LAX",
+                        "displayCode": "LAX",
+                        "parent": {
+                          "flightPlaceId": "LAXA",
+                          "displayCode": "LAX",
+                          "name": "Los Angeles",
+                          "type": "City"
+                        },
+                        "name": "Los Angeles International",
+                        "type": "Airport"
+                      },
+                      "departure": "2023-10-01T07:27:00",
+                      "arrival": "2023-10-01T09:03:00",
+                      "durationInMinutes": 216,
+                      "flightNumber": "1068",
+                      "marketingCarrier": {
+                        "id": -31722,
+                        "name": "United",
+                        "alternateId": "UA",
+                        "allianceId": 0
+                      },
+                      "operatingCarrier": {
+                        "id": -31722,
+                        "name": "United",
+                        "alternateId": "UA",
+                        "allianceId": 0
+                      }
+                    }
+                  ]
+                },
+                {
+                  "id": "13416-2310121858--31722-0-12389-2310130015",
+                  "origin": {
+                    "id": "LAX",
+                    "name": "Los Angeles International",
+                    "displayCode": "LAX",
+                    "city": "Los Angeles",
+                    "isHighlighted": false
+                  },
+                  "destination": {
+                    "id": "IAH",
+                    "name": "Houston George Bush Intercntl.",
+                    "displayCode": "IAH",
+                    "city": "Houston",
+                    "isHighlighted": false
+                  },
+                  "durationInMinutes": 197,
+                  "stopCount": 0,
+                  "isSmallestStops": false,
+                  "departure": "2023-10-12T18:58:00",
+                  "arrival": "2023-10-13T00:15:00",
+                  "timeDeltaInDays": 1,
+                  "carriers": {
+                    "marketing": [
+                      {
+                        "id": -31722,
+                        "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/UA.png",
+                        "name": "United"
+                      }
+                    ],
+                    "operationType": "fully_operated"
+                  },
+                  "segments": [
+                    {
+                      "id": "13416-12389-2310121858-2310130015--31722",
+                      "origin": {
+                        "flightPlaceId": "LAX",
+                        "displayCode": "LAX",
+                        "parent": {
+                          "flightPlaceId": "LAXA",
+                          "displayCode": "LAX",
+                          "name": "Los Angeles",
+                          "type": "City"
+                        },
+                        "name": "Los Angeles International",
+                        "type": "Airport"
+                      },
+                      "destination": {
+                        "flightPlaceId": "IAH",
+                        "displayCode": "IAH",
+                        "parent": {
+                          "flightPlaceId": "HOUA",
+                          "displayCode": "HOU",
+                          "name": "Houston",
+                          "type": "City"
+                        },
+                        "name": "Houston George Bush Intercntl.",
+                        "type": "Airport"
+                      },
+                      "departure": "2023-10-12T18:58:00",
+                      "arrival": "2023-10-13T00:15:00",
+                      "durationInMinutes": 197,
+                      "flightNumber": "1680",
+                      "marketingCarrier": {
+                        "id": -31722,
+                        "name": "United",
+                        "alternateId": "UA",
+                        "allianceId": 0
+                      },
+                      "operatingCarrier": {
+                        "id": -31722,
+                        "name": "United",
+                        "alternateId": "UA",
+                        "allianceId": 0
+                      }
+                    }
+                  ]
+                }
+              ],
+              "isSelfTransfer": false,
+              "isProtectedSelfTransfer": false,
+              "farePolicy": {
+                "isChangeAllowed": false,
+                "isPartiallyChangeable": false,
+                "isCancellationAllowed": false,
+                "isPartiallyRefundable": false
+              },
+              "eco": {
+                "ecoContenderDelta": 7.7794433
+              },
+              "fareAttributes": {},
+              "tags": [
+                "cheapest",
+                "second_shortest"
+              ],
+              "isMashUp": false,
+              "hasFlexibleOptions": false,
+              "score": 1,
+              "pricingOptions": [
+                {
+                  "agentIds": [
+                    "uair"
+                  ],
+                  "price": {
+                    "amount": 197.8
+                  },
+                  "items": [
+                    {
+                      "price": {
+                        "amount": 197.8
+                      },
+                      "bookingProposition": "PBOOK",
+                      "agentId": "uair"
+                    }
+                  ]
+                }
+              ],
+              "deeplink": "https://www.skyscanner.net/transport/flights/iah/lax/231001/231012/config/12389-2310010727--31722-0-13416-2310010903|13416-2310121858--31722-0-12389-2310130015?adults=1&adultsv2=1&cabinclass=economy&children=0&childrenv2=&destinationentityid=27536211&originentityid=27538417&inboundaltsenabled=false&infants=0&outboundaltsenabled=false&preferdirects=false&ref=home&rtn=1"
+            },
+            {
+              "id": "12389-2310010727--31722-0-13416-2310010903|13416-2310121724--31722-0-12389-2310122241",
+              "price": {
+                "raw": 197.8,
+                "formatted": "$198"
+              },
+              "legs": [
+                {
+                  "id": "12389-2310010727--31722-0-13416-2310010903",
+                  "origin": {
+                    "id": "IAH",
+                    "name": "Houston George Bush Intercntl.",
+                    "displayCode": "IAH",
+                    "city": "Houston",
+                    "isHighlighted": false
+                  },
+                  "destination": {
+                    "id": "LAX",
+                    "name": "Los Angeles International",
+                    "displayCode": "LAX",
+                    "city": "Los Angeles",
+                    "isHighlighted": false
+                  },
+                  "durationInMinutes": 216,
+                  "stopCount": 0,
+                  "isSmallestStops": false,
+                  "departure": "2023-10-01T07:27:00",
+                  "arrival": "2023-10-01T09:03:00",
+                  "timeDeltaInDays": 0,
+                  "carriers": {
+                    "marketing": [
+                      {
+                        "id": -31722,
+                        "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/UA.png",
+                        "name": "United"
+                      }
+                    ],
+                    "operationType": "fully_operated"
+                  },
+                  "segments": [
+                    {
+                      "id": "12389-13416-2310010727-2310010903--31722",
+                      "origin": {
+                        "flightPlaceId": "IAH",
+                        "displayCode": "IAH",
+                        "parent": {
+                          "flightPlaceId": "HOUA",
+                          "displayCode": "HOU",
+                          "name": "Houston",
+                          "type": "City"
+                        },
+                        "name": "Houston George Bush Intercntl.",
+                        "type": "Airport"
+                      },
+                      "destination": {
+                        "flightPlaceId": "LAX",
+                        "displayCode": "LAX",
+                        "parent": {
+                          "flightPlaceId": "LAXA",
+                          "displayCode": "LAX",
+                          "name": "Los Angeles",
+                          "type": "City"
+                        },
+                        "name": "Los Angeles International",
+                        "type": "Airport"
+                      },
+                      "departure": "2023-10-01T07:27:00",
+                      "arrival": "2023-10-01T09:03:00",
+                      "durationInMinutes": 216,
+                      "flightNumber": "1068",
+                      "marketingCarrier": {
+                        "id": -31722,
+                        "name": "United",
+                        "alternateId": "UA",
+                        "allianceId": 0
+                      },
+                      "operatingCarrier": {
+                        "id": -31722,
+                        "name": "United",
+                        "alternateId": "UA",
+                        "allianceId": 0
+                      }
+                    }
+                  ]
+                },
+                {
+                  "id": "13416-2310121724--31722-0-12389-2310122241",
+                  "origin": {
+                    "id": "LAX",
+                    "name": "Los Angeles International",
+                    "displayCode": "LAX",
+                    "city": "Los Angeles",
+                    "isHighlighted": false
+                  },
+                  "destination": {
+                    "id": "IAH",
+                    "name": "Houston George Bush Intercntl.",
+                    "displayCode": "IAH",
+                    "city": "Houston",
+                    "isHighlighted": false
+                  },
+                  "durationInMinutes": 197,
+                  "stopCount": 0,
+                  "isSmallestStops": false,
+                  "departure": "2023-10-12T17:24:00",
+                  "arrival": "2023-10-12T22:41:00",
+                  "timeDeltaInDays": 0,
+                  "carriers": {
+                    "marketing": [
+                      {
+                        "id": -31722,
+                        "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/UA.png",
+                        "name": "United"
+                      }
+                    ],
+                    "operationType": "fully_operated"
+                  },
+                  "segments": [
+                    {
+                      "id": "13416-12389-2310121724-2310122241--31722",
+                      "origin": {
+                        "flightPlaceId": "LAX",
+                        "displayCode": "LAX",
+                        "parent": {
+                          "flightPlaceId": "LAXA",
+                          "displayCode": "LAX",
+                          "name": "Los Angeles",
+                          "type": "City"
+                        },
+                        "name": "Los Angeles International",
+                        "type": "Airport"
+                      },
+                      "destination": {
+                        "flightPlaceId": "IAH",
+                        "displayCode": "IAH",
+                        "parent": {
+                          "flightPlaceId": "HOUA",
+                          "displayCode": "HOU",
+                          "name": "Houston",
+                          "type": "City"
+                        },
+                        "name": "Houston George Bush Intercntl.",
+                        "type": "Airport"
+                      },
+                      "departure": "2023-10-12T17:24:00",
+                      "arrival": "2023-10-12T22:41:00",
+                      "durationInMinutes": 197,
+                      "flightNumber": "2012",
+                      "marketingCarrier": {
+                        "id": -31722,
+                        "name": "United",
+                        "alternateId": "UA",
+                        "allianceId": 0
+                      },
+                      "operatingCarrier": {
+                        "id": -31722,
+                        "name": "United",
+                        "alternateId": "UA",
+                        "allianceId": 0
+                      }
+                    }
+                  ]
+                }
+              ],
+              "isSelfTransfer": false,
+              "isProtectedSelfTransfer": false,
+              "farePolicy": {
+                "isChangeAllowed": false,
+                "isPartiallyChangeable": false,
+                "isCancellationAllowed": false,
+                "isPartiallyRefundable": false
+              },
+              "eco": {
+                "ecoContenderDelta": 15.026915
+              },
+              "fareAttributes": {},
+              "tags": [
+                "cheapest",
+                "second_shortest"
+              ],
+              "isMashUp": false,
+              "hasFlexibleOptions": false,
+              "score": 1,
+              "pricingOptions": [
+                {
+                  "agentIds": [
+                    "uair"
+                  ],
+                  "price": {
+                    "amount": 197.8
+                  },
+                  "items": [
+                    {
+                      "price": {
+                        "amount": 197.8
+                      },
+                      "bookingProposition": "PBOOK",
+                      "agentId": "uair"
+                    }
+                  ]
+                }
+              ],
+              "deeplink": "https://www.skyscanner.net/transport/flights/iah/lax/231001/231012/config/12389-2310010727--31722-0-13416-2310010903|13416-2310121724--31722-0-12389-2310122241?adults=1&adultsv2=1&cabinclass=economy&children=0&childrenv2=&destinationentityid=27536211&originentityid=27538417&inboundaltsenabled=false&infants=0&outboundaltsenabled=false&preferdirects=false&ref=home&rtn=1"
+            }
+          ]
+        },
+        {
+          "id": "Fastest",
+          "name": "Fastest",
+          "items": [
+            {
+              "id": "12389-2310010601--31722-0-13416-2310010734|13416-2310121858--31722-0-12389-2310130015",
+              "price": {
+                "raw": 197.8,
+                "formatted": "$198"
+              },
+              "legs": [
+                {
+                  "id": "12389-2310010601--31722-0-13416-2310010734",
+                  "origin": {
+                    "id": "IAH",
+                    "name": "Houston George Bush Intercntl.",
+                    "displayCode": "IAH",
+                    "city": "Houston",
+                    "isHighlighted": false
+                  },
+                  "destination": {
+                    "id": "LAX",
+                    "name": "Los Angeles International",
+                    "displayCode": "LAX",
+                    "city": "Los Angeles",
+                    "isHighlighted": false
+                  },
+                  "durationInMinutes": 213,
+                  "stopCount": 0,
+                  "isSmallestStops": false,
+                  "departure": "2023-10-01T06:01:00",
+                  "arrival": "2023-10-01T07:34:00",
+                  "timeDeltaInDays": 0,
+                  "carriers": {
+                    "marketing": [
+                      {
+                        "id": -31722,
+                        "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/UA.png",
+                        "name": "United"
+                      }
+                    ],
+                    "operationType": "fully_operated"
+                  },
+                  "segments": [
+                    {
+                      "id": "12389-13416-2310010601-2310010734--31722",
+                      "origin": {
+                        "flightPlaceId": "IAH",
+                        "displayCode": "IAH",
+                        "parent": {
+                          "flightPlaceId": "HOUA",
+                          "displayCode": "HOU",
+                          "name": "Houston",
+                          "type": "City"
+                        },
+                        "name": "Houston George Bush Intercntl.",
+                        "type": "Airport"
+                      },
+                      "destination": {
+                        "flightPlaceId": "LAX",
+                        "displayCode": "LAX",
+                        "parent": {
+                          "flightPlaceId": "LAXA",
+                          "displayCode": "LAX",
+                          "name": "Los Angeles",
+                          "type": "City"
+                        },
+                        "name": "Los Angeles International",
+                        "type": "Airport"
+                      },
+                      "departure": "2023-10-01T06:01:00",
+                      "arrival": "2023-10-01T07:34:00",
+                      "durationInMinutes": 213,
+                      "flightNumber": "2273",
+                      "marketingCarrier": {
+                        "id": -31722,
+                        "name": "United",
+                        "alternateId": "UA",
+                        "allianceId": 0
+                      },
+                      "operatingCarrier": {
+                        "id": -31722,
+                        "name": "United",
+                        "alternateId": "UA",
+                        "allianceId": 0
+                      }
+                    }
+                  ]
+                },
+                {
+                  "id": "13416-2310121858--31722-0-12389-2310130015",
+                  "origin": {
+                    "id": "LAX",
+                    "name": "Los Angeles International",
+                    "displayCode": "LAX",
+                    "city": "Los Angeles",
+                    "isHighlighted": false
+                  },
+                  "destination": {
+                    "id": "IAH",
+                    "name": "Houston George Bush Intercntl.",
+                    "displayCode": "IAH",
+                    "city": "Houston",
+                    "isHighlighted": false
+                  },
+                  "durationInMinutes": 197,
+                  "stopCount": 0,
+                  "isSmallestStops": false,
+                  "departure": "2023-10-12T18:58:00",
+                  "arrival": "2023-10-13T00:15:00",
+                  "timeDeltaInDays": 1,
+                  "carriers": {
+                    "marketing": [
+                      {
+                        "id": -31722,
+                        "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/UA.png",
+                        "name": "United"
+                      }
+                    ],
+                    "operationType": "fully_operated"
+                  },
+                  "segments": [
+                    {
+                      "id": "13416-12389-2310121858-2310130015--31722",
+                      "origin": {
+                        "flightPlaceId": "LAX",
+                        "displayCode": "LAX",
+                        "parent": {
+                          "flightPlaceId": "LAXA",
+                          "displayCode": "LAX",
+                          "name": "Los Angeles",
+                          "type": "City"
+                        },
+                        "name": "Los Angeles International",
+                        "type": "Airport"
+                      },
+                      "destination": {
+                        "flightPlaceId": "IAH",
+                        "displayCode": "IAH",
+                        "parent": {
+                          "flightPlaceId": "HOUA",
+                          "displayCode": "HOU",
+                          "name": "Houston",
+                          "type": "City"
+                        },
+                        "name": "Houston George Bush Intercntl.",
+                        "type": "Airport"
+                      },
+                      "departure": "2023-10-12T18:58:00",
+                      "arrival": "2023-10-13T00:15:00",
+                      "durationInMinutes": 197,
+                      "flightNumber": "1680",
+                      "marketingCarrier": {
+                        "id": -31722,
+                        "name": "United",
+                        "alternateId": "UA",
+                        "allianceId": 0
+                      },
+                      "operatingCarrier": {
+                        "id": -31722,
+                        "name": "United",
+                        "alternateId": "UA",
+                        "allianceId": 0
+                      }
+                    }
+                  ]
+                }
+              ],
+              "isSelfTransfer": false,
+              "isProtectedSelfTransfer": false,
+              "farePolicy": {
+                "isChangeAllowed": false,
+                "isPartiallyChangeable": false,
+                "isCancellationAllowed": false,
+                "isPartiallyRefundable": false
+              },
+              "fareAttributes": {},
+              "tags": [
+                "cheapest",
+                "shortest"
+              ],
+              "isMashUp": false,
+              "hasFlexibleOptions": false,
+              "score": 1,
+              "pricingOptions": [
+                {
+                  "agentIds": [
+                    "uair"
+                  ],
+                  "price": {
+                    "amount": 197.8
+                  },
+                  "items": [
+                    {
+                      "price": {
+                        "amount": 197.8
+                      },
+                      "bookingProposition": "PBOOK",
+                      "agentId": "uair"
+                    }
+                  ]
+                }
+              ],
+              "deeplink": "https://www.skyscanner.net/transport/flights/iah/lax/231001/231012/config/12389-2310010601--31722-0-13416-2310010734|13416-2310121858--31722-0-12389-2310130015?adults=1&adultsv2=1&cabinclass=economy&children=0&childrenv2=&destinationentityid=27536211&originentityid=27538417&inboundaltsenabled=false&infants=0&outboundaltsenabled=false&preferdirects=false&ref=home&rtn=1"
+            },
+            {
+              "id": "12389-2310010601--31722-0-13416-2310010734|13416-2310121724--31722-0-12389-2310122241",
+              "price": {
+                "raw": 197.8,
+                "formatted": "$198"
+              },
+              "legs": [
+                {
+                  "id": "12389-2310010601--31722-0-13416-2310010734",
+                  "origin": {
+                    "id": "IAH",
+                    "name": "Houston George Bush Intercntl.",
+                    "displayCode": "IAH",
+                    "city": "Houston",
+                    "isHighlighted": false
+                  },
+                  "destination": {
+                    "id": "LAX",
+                    "name": "Los Angeles International",
+                    "displayCode": "LAX",
+                    "city": "Los Angeles",
+                    "isHighlighted": false
+                  },
+                  "durationInMinutes": 213,
+                  "stopCount": 0,
+                  "isSmallestStops": false,
+                  "departure": "2023-10-01T06:01:00",
+                  "arrival": "2023-10-01T07:34:00",
+                  "timeDeltaInDays": 0,
+                  "carriers": {
+                    "marketing": [
+                      {
+                        "id": -31722,
+                        "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/UA.png",
+                        "name": "United"
+                      }
+                    ],
+                    "operationType": "fully_operated"
+                  },
+                  "segments": [
+                    {
+                      "id": "12389-13416-2310010601-2310010734--31722",
+                      "origin": {
+                        "flightPlaceId": "IAH",
+                        "displayCode": "IAH",
+                        "parent": {
+                          "flightPlaceId": "HOUA",
+                          "displayCode": "HOU",
+                          "name": "Houston",
+                          "type": "City"
+                        },
+                        "name": "Houston George Bush Intercntl.",
+                        "type": "Airport"
+                      },
+                      "destination": {
+                        "flightPlaceId": "LAX",
+                        "displayCode": "LAX",
+                        "parent": {
+                          "flightPlaceId": "LAXA",
+                          "displayCode": "LAX",
+                          "name": "Los Angeles",
+                          "type": "City"
+                        },
+                        "name": "Los Angeles International",
+                        "type": "Airport"
+                      },
+                      "departure": "2023-10-01T06:01:00",
+                      "arrival": "2023-10-01T07:34:00",
+                      "durationInMinutes": 213,
+                      "flightNumber": "2273",
+                      "marketingCarrier": {
+                        "id": -31722,
+                        "name": "United",
+                        "alternateId": "UA",
+                        "allianceId": 0
+                      },
+                      "operatingCarrier": {
+                        "id": -31722,
+                        "name": "United",
+                        "alternateId": "UA",
+                        "allianceId": 0
+                      }
+                    }
+                  ]
+                },
+                {
+                  "id": "13416-2310121724--31722-0-12389-2310122241",
+                  "origin": {
+                    "id": "LAX",
+                    "name": "Los Angeles International",
+                    "displayCode": "LAX",
+                    "city": "Los Angeles",
+                    "isHighlighted": false
+                  },
+                  "destination": {
+                    "id": "IAH",
+                    "name": "Houston George Bush Intercntl.",
+                    "displayCode": "IAH",
+                    "city": "Houston",
+                    "isHighlighted": false
+                  },
+                  "durationInMinutes": 197,
+                  "stopCount": 0,
+                  "isSmallestStops": false,
+                  "departure": "2023-10-12T17:24:00",
+                  "arrival": "2023-10-12T22:41:00",
+                  "timeDeltaInDays": 0,
+                  "carriers": {
+                    "marketing": [
+                      {
+                        "id": -31722,
+                        "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/UA.png",
+                        "name": "United"
+                      }
+                    ],
+                    "operationType": "fully_operated"
+                  },
+                  "segments": [
+                    {
+                      "id": "13416-12389-2310121724-2310122241--31722",
+                      "origin": {
+                        "flightPlaceId": "LAX",
+                        "displayCode": "LAX",
+                        "parent": {
+                          "flightPlaceId": "LAXA",
+                          "displayCode": "LAX",
+                          "name": "Los Angeles",
+                          "type": "City"
+                        },
+                        "name": "Los Angeles International",
+                        "type": "Airport"
+                      },
+                      "destination": {
+                        "flightPlaceId": "IAH",
+                        "displayCode": "IAH",
+                        "parent": {
+                          "flightPlaceId": "HOUA",
+                          "displayCode": "HOU",
+                          "name": "Houston",
+                          "type": "City"
+                        },
+                        "name": "Houston George Bush Intercntl.",
+                        "type": "Airport"
+                      },
+                      "departure": "2023-10-12T17:24:00",
+                      "arrival": "2023-10-12T22:41:00",
+                      "durationInMinutes": 197,
+                      "flightNumber": "2012",
+                      "marketingCarrier": {
+                        "id": -31722,
+                        "name": "United",
+                        "alternateId": "UA",
+                        "allianceId": 0
+                      },
+                      "operatingCarrier": {
+                        "id": -31722,
+                        "name": "United",
+                        "alternateId": "UA",
+                        "allianceId": 0
+                      }
+                    }
+                  ]
+                }
+              ],
+              "isSelfTransfer": false,
+              "isProtectedSelfTransfer": false,
+              "farePolicy": {
+                "isChangeAllowed": false,
+                "isPartiallyChangeable": false,
+                "isCancellationAllowed": false,
+                "isPartiallyRefundable": false
+              },
+              "eco": {
+                "ecoContenderDelta": 8.577072
+              },
+              "fareAttributes": {},
+              "tags": [
+                "cheapest",
+                "shortest"
+              ],
+              "isMashUp": false,
+              "hasFlexibleOptions": false,
+              "score": 1,
+              "pricingOptions": [
+                {
+                  "agentIds": [
+                    "uair"
+                  ],
+                  "price": {
+                    "amount": 197.8
+                  },
+                  "items": [
+                    {
+                      "price": {
+                        "amount": 197.8
+                      },
+                      "bookingProposition": "PBOOK",
+                      "agentId": "uair"
+                    }
+                  ]
+                }
+              ],
+              "deeplink": "https://www.skyscanner.net/transport/flights/iah/lax/231001/231012/config/12389-2310010601--31722-0-13416-2310010734|13416-2310121724--31722-0-12389-2310122241?adults=1&adultsv2=1&cabinclass=economy&children=0&childrenv2=&destinationentityid=27536211&originentityid=27538417&inboundaltsenabled=false&infants=0&outboundaltsenabled=false&preferdirects=false&ref=home&rtn=1"
+            },
+            {
+              "id": "12389-2310010727--31722-0-13416-2310010903|13416-2310121858--31722-0-12389-2310130015",
+              "price": {
+                "raw": 197.8,
+                "formatted": "$198"
+              },
+              "legs": [
+                {
+                  "id": "12389-2310010727--31722-0-13416-2310010903",
+                  "origin": {
+                    "id": "IAH",
+                    "name": "Houston George Bush Intercntl.",
+                    "displayCode": "IAH",
+                    "city": "Houston",
+                    "isHighlighted": false
+                  },
+                  "destination": {
+                    "id": "LAX",
+                    "name": "Los Angeles International",
+                    "displayCode": "LAX",
+                    "city": "Los Angeles",
+                    "isHighlighted": false
+                  },
+                  "durationInMinutes": 216,
+                  "stopCount": 0,
+                  "isSmallestStops": false,
+                  "departure": "2023-10-01T07:27:00",
+                  "arrival": "2023-10-01T09:03:00",
+                  "timeDeltaInDays": 0,
+                  "carriers": {
+                    "marketing": [
+                      {
+                        "id": -31722,
+                        "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/UA.png",
+                        "name": "United"
+                      }
+                    ],
+                    "operationType": "fully_operated"
+                  },
+                  "segments": [
+                    {
+                      "id": "12389-13416-2310010727-2310010903--31722",
+                      "origin": {
+                        "flightPlaceId": "IAH",
+                        "displayCode": "IAH",
+                        "parent": {
+                          "flightPlaceId": "HOUA",
+                          "displayCode": "HOU",
+                          "name": "Houston",
+                          "type": "City"
+                        },
+                        "name": "Houston George Bush Intercntl.",
+                        "type": "Airport"
+                      },
+                      "destination": {
+                        "flightPlaceId": "LAX",
+                        "displayCode": "LAX",
+                        "parent": {
+                          "flightPlaceId": "LAXA",
+                          "displayCode": "LAX",
+                          "name": "Los Angeles",
+                          "type": "City"
+                        },
+                        "name": "Los Angeles International",
+                        "type": "Airport"
+                      },
+                      "departure": "2023-10-01T07:27:00",
+                      "arrival": "2023-10-01T09:03:00",
+                      "durationInMinutes": 216,
+                      "flightNumber": "1068",
+                      "marketingCarrier": {
+                        "id": -31722,
+                        "name": "United",
+                        "alternateId": "UA",
+                        "allianceId": 0
+                      },
+                      "operatingCarrier": {
+                        "id": -31722,
+                        "name": "United",
+                        "alternateId": "UA",
+                        "allianceId": 0
+                      }
+                    }
+                  ]
+                },
+                {
+                  "id": "13416-2310121858--31722-0-12389-2310130015",
+                  "origin": {
+                    "id": "LAX",
+                    "name": "Los Angeles International",
+                    "displayCode": "LAX",
+                    "city": "Los Angeles",
+                    "isHighlighted": false
+                  },
+                  "destination": {
+                    "id": "IAH",
+                    "name": "Houston George Bush Intercntl.",
+                    "displayCode": "IAH",
+                    "city": "Houston",
+                    "isHighlighted": false
+                  },
+                  "durationInMinutes": 197,
+                  "stopCount": 0,
+                  "isSmallestStops": false,
+                  "departure": "2023-10-12T18:58:00",
+                  "arrival": "2023-10-13T00:15:00",
+                  "timeDeltaInDays": 1,
+                  "carriers": {
+                    "marketing": [
+                      {
+                        "id": -31722,
+                        "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/UA.png",
+                        "name": "United"
+                      }
+                    ],
+                    "operationType": "fully_operated"
+                  },
+                  "segments": [
+                    {
+                      "id": "13416-12389-2310121858-2310130015--31722",
+                      "origin": {
+                        "flightPlaceId": "LAX",
+                        "displayCode": "LAX",
+                        "parent": {
+                          "flightPlaceId": "LAXA",
+                          "displayCode": "LAX",
+                          "name": "Los Angeles",
+                          "type": "City"
+                        },
+                        "name": "Los Angeles International",
+                        "type": "Airport"
+                      },
+                      "destination": {
+                        "flightPlaceId": "IAH",
+                        "displayCode": "IAH",
+                        "parent": {
+                          "flightPlaceId": "HOUA",
+                          "displayCode": "HOU",
+                          "name": "Houston",
+                          "type": "City"
+                        },
+                        "name": "Houston George Bush Intercntl.",
+                        "type": "Airport"
+                      },
+                      "departure": "2023-10-12T18:58:00",
+                      "arrival": "2023-10-13T00:15:00",
+                      "durationInMinutes": 197,
+                      "flightNumber": "1680",
+                      "marketingCarrier": {
+                        "id": -31722,
+                        "name": "United",
+                        "alternateId": "UA",
+                        "allianceId": 0
+                      },
+                      "operatingCarrier": {
+                        "id": -31722,
+                        "name": "United",
+                        "alternateId": "UA",
+                        "allianceId": 0
+                      }
+                    }
+                  ]
+                }
+              ],
+              "isSelfTransfer": false,
+              "isProtectedSelfTransfer": false,
+              "farePolicy": {
+                "isChangeAllowed": false,
+                "isPartiallyChangeable": false,
+                "isCancellationAllowed": false,
+                "isPartiallyRefundable": false
+              },
+              "eco": {
+                "ecoContenderDelta": 7.7794433
+              },
+              "fareAttributes": {},
+              "tags": [
+                "cheapest",
+                "second_shortest"
+              ],
+              "isMashUp": false,
+              "hasFlexibleOptions": false,
+              "score": 0.5714285,
+              "pricingOptions": [
+                {
+                  "agentIds": [
+                    "uair"
+                  ],
+                  "price": {
+                    "amount": 197.8
+                  },
+                  "items": [
+                    {
+                      "price": {
+                        "amount": 197.8
+                      },
+                      "bookingProposition": "PBOOK",
+                      "agentId": "uair"
+                    }
+                  ]
+                }
+              ],
+              "deeplink": "https://www.skyscanner.net/transport/flights/iah/lax/231001/231012/config/12389-2310010727--31722-0-13416-2310010903|13416-2310121858--31722-0-12389-2310130015?adults=1&adultsv2=1&cabinclass=economy&children=0&childrenv2=&destinationentityid=27536211&originentityid=27538417&inboundaltsenabled=false&infants=0&outboundaltsenabled=false&preferdirects=false&ref=home&rtn=1"
+            }
+          ]
+        },
+        {
+          "id": "Direct",
+          "name": "Direct",
+          "items": [
+            {
+              "id": "12389-2310010601--31722-0-13416-2310010734|13416-2310121858--31722-0-12389-2310130015",
+              "price": {
+                "raw": 197.8,
+                "formatted": "$198"
+              },
+              "legs": [
+                {
+                  "id": "12389-2310010601--31722-0-13416-2310010734",
+                  "origin": {
+                    "id": "IAH",
+                    "name": "Houston George Bush Intercntl.",
+                    "displayCode": "IAH",
+                    "city": "Houston",
+                    "isHighlighted": false
+                  },
+                  "destination": {
+                    "id": "LAX",
+                    "name": "Los Angeles International",
+                    "displayCode": "LAX",
+                    "city": "Los Angeles",
+                    "isHighlighted": false
+                  },
+                  "durationInMinutes": 213,
+                  "stopCount": 0,
+                  "isSmallestStops": false,
+                  "departure": "2023-10-01T06:01:00",
+                  "arrival": "2023-10-01T07:34:00",
+                  "timeDeltaInDays": 0,
+                  "carriers": {
+                    "marketing": [
+                      {
+                        "id": -31722,
+                        "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/UA.png",
+                        "name": "United"
+                      }
+                    ],
+                    "operationType": "fully_operated"
+                  },
+                  "segments": [
+                    {
+                      "id": "12389-13416-2310010601-2310010734--31722",
+                      "origin": {
+                        "flightPlaceId": "IAH",
+                        "displayCode": "IAH",
+                        "parent": {
+                          "flightPlaceId": "HOUA",
+                          "displayCode": "HOU",
+                          "name": "Houston",
+                          "type": "City"
+                        },
+                        "name": "Houston George Bush Intercntl.",
+                        "type": "Airport"
+                      },
+                      "destination": {
+                        "flightPlaceId": "LAX",
+                        "displayCode": "LAX",
+                        "parent": {
+                          "flightPlaceId": "LAXA",
+                          "displayCode": "LAX",
+                          "name": "Los Angeles",
+                          "type": "City"
+                        },
+                        "name": "Los Angeles International",
+                        "type": "Airport"
+                      },
+                      "departure": "2023-10-01T06:01:00",
+                      "arrival": "2023-10-01T07:34:00",
+                      "durationInMinutes": 213,
+                      "flightNumber": "2273",
+                      "marketingCarrier": {
+                        "id": -31722,
+                        "name": "United",
+                        "alternateId": "UA",
+                        "allianceId": 0
+                      },
+                      "operatingCarrier": {
+                        "id": -31722,
+                        "name": "United",
+                        "alternateId": "UA",
+                        "allianceId": 0
+                      }
+                    }
+                  ]
+                },
+                {
+                  "id": "13416-2310121858--31722-0-12389-2310130015",
+                  "origin": {
+                    "id": "LAX",
+                    "name": "Los Angeles International",
+                    "displayCode": "LAX",
+                    "city": "Los Angeles",
+                    "isHighlighted": false
+                  },
+                  "destination": {
+                    "id": "IAH",
+                    "name": "Houston George Bush Intercntl.",
+                    "displayCode": "IAH",
+                    "city": "Houston",
+                    "isHighlighted": false
+                  },
+                  "durationInMinutes": 197,
+                  "stopCount": 0,
+                  "isSmallestStops": false,
+                  "departure": "2023-10-12T18:58:00",
+                  "arrival": "2023-10-13T00:15:00",
+                  "timeDeltaInDays": 1,
+                  "carriers": {
+                    "marketing": [
+                      {
+                        "id": -31722,
+                        "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/UA.png",
+                        "name": "United"
+                      }
+                    ],
+                    "operationType": "fully_operated"
+                  },
+                  "segments": [
+                    {
+                      "id": "13416-12389-2310121858-2310130015--31722",
+                      "origin": {
+                        "flightPlaceId": "LAX",
+                        "displayCode": "LAX",
+                        "parent": {
+                          "flightPlaceId": "LAXA",
+                          "displayCode": "LAX",
+                          "name": "Los Angeles",
+                          "type": "City"
+                        },
+                        "name": "Los Angeles International",
+                        "type": "Airport"
+                      },
+                      "destination": {
+                        "flightPlaceId": "IAH",
+                        "displayCode": "IAH",
+                        "parent": {
+                          "flightPlaceId": "HOUA",
+                          "displayCode": "HOU",
+                          "name": "Houston",
+                          "type": "City"
+                        },
+                        "name": "Houston George Bush Intercntl.",
+                        "type": "Airport"
+                      },
+                      "departure": "2023-10-12T18:58:00",
+                      "arrival": "2023-10-13T00:15:00",
+                      "durationInMinutes": 197,
+                      "flightNumber": "1680",
+                      "marketingCarrier": {
+                        "id": -31722,
+                        "name": "United",
+                        "alternateId": "UA",
+                        "allianceId": 0
+                      },
+                      "operatingCarrier": {
+                        "id": -31722,
+                        "name": "United",
+                        "alternateId": "UA",
+                        "allianceId": 0
+                      }
+                    }
+                  ]
+                }
+              ],
+              "isSelfTransfer": false,
+              "isProtectedSelfTransfer": false,
+              "farePolicy": {
+                "isChangeAllowed": false,
+                "isPartiallyChangeable": false,
+                "isCancellationAllowed": false,
+                "isPartiallyRefundable": false
+              },
+              "fareAttributes": {},
+              "tags": [
+                "cheapest",
+                "shortest"
+              ],
+              "isMashUp": false,
+              "hasFlexibleOptions": false,
+              "score": 0.995122,
+              "pricingOptions": [
+                {
+                  "agentIds": [
+                    "uair"
+                  ],
+                  "price": {
+                    "amount": 197.8
+                  },
+                  "items": [
+                    {
+                      "price": {
+                        "amount": 197.8
+                      },
+                      "bookingProposition": "PBOOK",
+                      "agentId": "uair"
+                    }
+                  ]
+                }
+              ],
+              "deeplink": "https://www.skyscanner.net/transport/flights/iah/lax/231001/231012/config/12389-2310010601--31722-0-13416-2310010734|13416-2310121858--31722-0-12389-2310130015?adults=1&adultsv2=1&cabinclass=economy&children=0&childrenv2=&destinationentityid=27536211&originentityid=27538417&inboundaltsenabled=false&infants=0&outboundaltsenabled=false&preferdirects=false&ref=home&rtn=1"
+            },
+            {
+              "id": "12389-2310010601--31722-0-13416-2310010734|13416-2310121724--31722-0-12389-2310122241",
+              "price": {
+                "raw": 197.8,
+                "formatted": "$198"
+              },
+              "legs": [
+                {
+                  "id": "12389-2310010601--31722-0-13416-2310010734",
+                  "origin": {
+                    "id": "IAH",
+                    "name": "Houston George Bush Intercntl.",
+                    "displayCode": "IAH",
+                    "city": "Houston",
+                    "isHighlighted": false
+                  },
+                  "destination": {
+                    "id": "LAX",
+                    "name": "Los Angeles International",
+                    "displayCode": "LAX",
+                    "city": "Los Angeles",
+                    "isHighlighted": false
+                  },
+                  "durationInMinutes": 213,
+                  "stopCount": 0,
+                  "isSmallestStops": false,
+                  "departure": "2023-10-01T06:01:00",
+                  "arrival": "2023-10-01T07:34:00",
+                  "timeDeltaInDays": 0,
+                  "carriers": {
+                    "marketing": [
+                      {
+                        "id": -31722,
+                        "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/UA.png",
+                        "name": "United"
+                      }
+                    ],
+                    "operationType": "fully_operated"
+                  },
+                  "segments": [
+                    {
+                      "id": "12389-13416-2310010601-2310010734--31722",
+                      "origin": {
+                        "flightPlaceId": "IAH",
+                        "displayCode": "IAH",
+                        "parent": {
+                          "flightPlaceId": "HOUA",
+                          "displayCode": "HOU",
+                          "name": "Houston",
+                          "type": "City"
+                        },
+                        "name": "Houston George Bush Intercntl.",
+                        "type": "Airport"
+                      },
+                      "destination": {
+                        "flightPlaceId": "LAX",
+                        "displayCode": "LAX",
+                        "parent": {
+                          "flightPlaceId": "LAXA",
+                          "displayCode": "LAX",
+                          "name": "Los Angeles",
+                          "type": "City"
+                        },
+                        "name": "Los Angeles International",
+                        "type": "Airport"
+                      },
+                      "departure": "2023-10-01T06:01:00",
+                      "arrival": "2023-10-01T07:34:00",
+                      "durationInMinutes": 213,
+                      "flightNumber": "2273",
+                      "marketingCarrier": {
+                        "id": -31722,
+                        "name": "United",
+                        "alternateId": "UA",
+                        "allianceId": 0
+                      },
+                      "operatingCarrier": {
+                        "id": -31722,
+                        "name": "United",
+                        "alternateId": "UA",
+                        "allianceId": 0
+                      }
+                    }
+                  ]
+                },
+                {
+                  "id": "13416-2310121724--31722-0-12389-2310122241",
+                  "origin": {
+                    "id": "LAX",
+                    "name": "Los Angeles International",
+                    "displayCode": "LAX",
+                    "city": "Los Angeles",
+                    "isHighlighted": false
+                  },
+                  "destination": {
+                    "id": "IAH",
+                    "name": "Houston George Bush Intercntl.",
+                    "displayCode": "IAH",
+                    "city": "Houston",
+                    "isHighlighted": false
+                  },
+                  "durationInMinutes": 197,
+                  "stopCount": 0,
+                  "isSmallestStops": false,
+                  "departure": "2023-10-12T17:24:00",
+                  "arrival": "2023-10-12T22:41:00",
+                  "timeDeltaInDays": 0,
+                  "carriers": {
+                    "marketing": [
+                      {
+                        "id": -31722,
+                        "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/UA.png",
+                        "name": "United"
+                      }
+                    ],
+                    "operationType": "fully_operated"
+                  },
+                  "segments": [
+                    {
+                      "id": "13416-12389-2310121724-2310122241--31722",
+                      "origin": {
+                        "flightPlaceId": "LAX",
+                        "displayCode": "LAX",
+                        "parent": {
+                          "flightPlaceId": "LAXA",
+                          "displayCode": "LAX",
+                          "name": "Los Angeles",
+                          "type": "City"
+                        },
+                        "name": "Los Angeles International",
+                        "type": "Airport"
+                      },
+                      "destination": {
+                        "flightPlaceId": "IAH",
+                        "displayCode": "IAH",
+                        "parent": {
+                          "flightPlaceId": "HOUA",
+                          "displayCode": "HOU",
+                          "name": "Houston",
+                          "type": "City"
+                        },
+                        "name": "Houston George Bush Intercntl.",
+                        "type": "Airport"
+                      },
+                      "departure": "2023-10-12T17:24:00",
+                      "arrival": "2023-10-12T22:41:00",
+                      "durationInMinutes": 197,
+                      "flightNumber": "2012",
+                      "marketingCarrier": {
+                        "id": -31722,
+                        "name": "United",
+                        "alternateId": "UA",
+                        "allianceId": 0
+                      },
+                      "operatingCarrier": {
+                        "id": -31722,
+                        "name": "United",
+                        "alternateId": "UA",
+                        "allianceId": 0
+                      }
+                    }
+                  ]
+                }
+              ],
+              "isSelfTransfer": false,
+              "isProtectedSelfTransfer": false,
+              "farePolicy": {
+                "isChangeAllowed": false,
+                "isPartiallyChangeable": false,
+                "isCancellationAllowed": false,
+                "isPartiallyRefundable": false
+              },
+              "eco": {
+                "ecoContenderDelta": 8.577072
+              },
+              "fareAttributes": {},
+              "tags": [
+                "cheapest",
+                "shortest"
+              ],
+              "isMashUp": false,
+              "hasFlexibleOptions": false,
+              "score": 0.995122,
+              "pricingOptions": [
+                {
+                  "agentIds": [
+                    "uair"
+                  ],
+                  "price": {
+                    "amount": 197.8
+                  },
+                  "items": [
+                    {
+                      "price": {
+                        "amount": 197.8
+                      },
+                      "bookingProposition": "PBOOK",
+                      "agentId": "uair"
+                    }
+                  ]
+                }
+              ],
+              "deeplink": "https://www.skyscanner.net/transport/flights/iah/lax/231001/231012/config/12389-2310010601--31722-0-13416-2310010734|13416-2310121724--31722-0-12389-2310122241?adults=1&adultsv2=1&cabinclass=economy&children=0&childrenv2=&destinationentityid=27536211&originentityid=27538417&inboundaltsenabled=false&infants=0&outboundaltsenabled=false&preferdirects=false&ref=home&rtn=1"
+            },
+            {
+              "id": "12389-2310010727--31722-0-13416-2310010903|13416-2310121858--31722-0-12389-2310130015",
+              "price": {
+                "raw": 197.8,
+                "formatted": "$198"
+              },
+              "legs": [
+                {
+                  "id": "12389-2310010727--31722-0-13416-2310010903",
+                  "origin": {
+                    "id": "IAH",
+                    "name": "Houston George Bush Intercntl.",
+                    "displayCode": "IAH",
+                    "city": "Houston",
+                    "isHighlighted": false
+                  },
+                  "destination": {
+                    "id": "LAX",
+                    "name": "Los Angeles International",
+                    "displayCode": "LAX",
+                    "city": "Los Angeles",
+                    "isHighlighted": false
+                  },
+                  "durationInMinutes": 216,
+                  "stopCount": 0,
+                  "isSmallestStops": false,
+                  "departure": "2023-10-01T07:27:00",
+                  "arrival": "2023-10-01T09:03:00",
+                  "timeDeltaInDays": 0,
+                  "carriers": {
+                    "marketing": [
+                      {
+                        "id": -31722,
+                        "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/UA.png",
+                        "name": "United"
+                      }
+                    ],
+                    "operationType": "fully_operated"
+                  },
+                  "segments": [
+                    {
+                      "id": "12389-13416-2310010727-2310010903--31722",
+                      "origin": {
+                        "flightPlaceId": "IAH",
+                        "displayCode": "IAH",
+                        "parent": {
+                          "flightPlaceId": "HOUA",
+                          "displayCode": "HOU",
+                          "name": "Houston",
+                          "type": "City"
+                        },
+                        "name": "Houston George Bush Intercntl.",
+                        "type": "Airport"
+                      },
+                      "destination": {
+                        "flightPlaceId": "LAX",
+                        "displayCode": "LAX",
+                        "parent": {
+                          "flightPlaceId": "LAXA",
+                          "displayCode": "LAX",
+                          "name": "Los Angeles",
+                          "type": "City"
+                        },
+                        "name": "Los Angeles International",
+                        "type": "Airport"
+                      },
+                      "departure": "2023-10-01T07:27:00",
+                      "arrival": "2023-10-01T09:03:00",
+                      "durationInMinutes": 216,
+                      "flightNumber": "1068",
+                      "marketingCarrier": {
+                        "id": -31722,
+                        "name": "United",
+                        "alternateId": "UA",
+                        "allianceId": 0
+                      },
+                      "operatingCarrier": {
+                        "id": -31722,
+                        "name": "United",
+                        "alternateId": "UA",
+                        "allianceId": 0
+                      }
+                    }
+                  ]
+                },
+                {
+                  "id": "13416-2310121858--31722-0-12389-2310130015",
+                  "origin": {
+                    "id": "LAX",
+                    "name": "Los Angeles International",
+                    "displayCode": "LAX",
+                    "city": "Los Angeles",
+                    "isHighlighted": false
+                  },
+                  "destination": {
+                    "id": "IAH",
+                    "name": "Houston George Bush Intercntl.",
+                    "displayCode": "IAH",
+                    "city": "Houston",
+                    "isHighlighted": false
+                  },
+                  "durationInMinutes": 197,
+                  "stopCount": 0,
+                  "isSmallestStops": false,
+                  "departure": "2023-10-12T18:58:00",
+                  "arrival": "2023-10-13T00:15:00",
+                  "timeDeltaInDays": 1,
+                  "carriers": {
+                    "marketing": [
+                      {
+                        "id": -31722,
+                        "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/UA.png",
+                        "name": "United"
+                      }
+                    ],
+                    "operationType": "fully_operated"
+                  },
+                  "segments": [
+                    {
+                      "id": "13416-12389-2310121858-2310130015--31722",
+                      "origin": {
+                        "flightPlaceId": "LAX",
+                        "displayCode": "LAX",
+                        "parent": {
+                          "flightPlaceId": "LAXA",
+                          "displayCode": "LAX",
+                          "name": "Los Angeles",
+                          "type": "City"
+                        },
+                        "name": "Los Angeles International",
+                        "type": "Airport"
+                      },
+                      "destination": {
+                        "flightPlaceId": "IAH",
+                        "displayCode": "IAH",
+                        "parent": {
+                          "flightPlaceId": "HOUA",
+                          "displayCode": "HOU",
+                          "name": "Houston",
+                          "type": "City"
+                        },
+                        "name": "Houston George Bush Intercntl.",
+                        "type": "Airport"
+                      },
+                      "departure": "2023-10-12T18:58:00",
+                      "arrival": "2023-10-13T00:15:00",
+                      "durationInMinutes": 197,
+                      "flightNumber": "1680",
+                      "marketingCarrier": {
+                        "id": -31722,
+                        "name": "United",
+                        "alternateId": "UA",
+                        "allianceId": 0
+                      },
+                      "operatingCarrier": {
+                        "id": -31722,
+                        "name": "United",
+                        "alternateId": "UA",
+                        "allianceId": 0
+                      }
+                    }
+                  ]
+                }
+              ],
+              "isSelfTransfer": false,
+              "isProtectedSelfTransfer": false,
+              "farePolicy": {
+                "isChangeAllowed": false,
+                "isPartiallyChangeable": false,
+                "isCancellationAllowed": false,
+                "isPartiallyRefundable": false
+              },
+              "eco": {
+                "ecoContenderDelta": 7.7794433
+              },
+              "fareAttributes": {},
+              "tags": [
+                "cheapest",
+                "second_shortest"
+              ],
+              "isMashUp": false,
+              "hasFlexibleOptions": false,
+              "score": 0.987893,
+              "pricingOptions": [
+                {
+                  "agentIds": [
+                    "uair"
+                  ],
+                  "price": {
+                    "amount": 197.8
+                  },
+                  "items": [
+                    {
+                      "price": {
+                        "amount": 197.8
+                      },
+                      "bookingProposition": "PBOOK",
+                      "agentId": "uair"
+                    }
+                  ]
+                }
+              ],
+              "deeplink": "https://www.skyscanner.net/transport/flights/iah/lax/231001/231012/config/12389-2310010727--31722-0-13416-2310010903|13416-2310121858--31722-0-12389-2310130015?adults=1&adultsv2=1&cabinclass=economy&children=0&childrenv2=&destinationentityid=27536211&originentityid=27538417&inboundaltsenabled=false&infants=0&outboundaltsenabled=false&preferdirects=false&ref=home&rtn=1"
+            }
+          ]
+        }
+      ]
+    }
+  }
